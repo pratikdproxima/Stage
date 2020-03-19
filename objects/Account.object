@@ -3,7 +3,7 @@
     <validationRules>
         <fullName>Phone_Number_Required</fullName>
         <active>true</active>
-        <errorConditionFormula>ISBLANK( Phone )</errorConditionFormula>
+        <errorConditionFormula>Phone != null</errorConditionFormula>
         <errorDisplayField>Phone</errorDisplayField>
         <errorMessage>Please enter phone number</errorMessage>
     </validationRules>
